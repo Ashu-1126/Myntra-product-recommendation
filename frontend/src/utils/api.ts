@@ -1,4 +1,4 @@
-const baseUrl = import.meta.env.VITE_BACKEND_BASE_URL;
+const baseUrl = import.meta.env.VITE_BACKEND_BASE_URL + "/api";
 
 function request<TResponse>(
   url: string,
